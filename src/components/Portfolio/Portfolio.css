@@ -1,0 +1,76 @@
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.real-tokens, .rent {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.real-tokens h2, .rent h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.real-tokens p, .rent p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.real-tokens a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.real-tokens a:hover {
+    text-decoration: underline;
+}
+
+.token-balance-notice {
+    font-size: 12px;
+    color: #666;
+}
+
+.connect-wallet {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.connect-wallet:hover {
+    background-color: #0056b3;
+}
+
+.ethereum-addresses {
+    margin-bottom: 20px;
+}
+
+.manage-rent-reinvestments {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.manage-rent-reinvestments:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .LoginDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2cm;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .LoginForm {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .LoginHeadDiv {
+    margin-bottom: 1.5rem;
+  }
+  
+  .LoginFormHead {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 1.5rem);
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .loginbutton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .loginbutton:hover {
+    background-color: #0056b3;
+  }
+  
+  .SignupLink {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .SignupLink a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .SignupLink a:hover {
+    text-decoration: underline;
+  }
+  

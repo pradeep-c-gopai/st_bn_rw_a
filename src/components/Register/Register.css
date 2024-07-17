@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.RegisterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.RegisterForm {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.RegisterFormHead {
+    margin-bottom: 1rem; /* Reduced margin */
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.RegisterInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Reduced gap */
+}
+
+.RegisterName {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.RegisterName input {
+    width: 50%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Make full width within container */
+    padding: 0.5rem; /* Reduced padding */
+    margin: 0.25rem 0; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.RegisterButtonDiv {
+    margin-top: 0.5rem; /* Reduced margin */
+}
+
+.RegisterButton {
+    width: 100%;
+    padding: 0.5rem; /* Reduced padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.RegisterButton:hover {
+    background-color: #0056b3;
+}
+
+.alreadyHaveAccountDiv {
+    margin-top: 0.5rem; /* Reduced margin */
+    font-size: 0.9rem;
+}
+
+.alreadyHaveAccountDiv a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.alreadyHaveAccountDiv a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,182 @@
+.oryx-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 40px;
+    background-color: #f3f3f3;
+    margin: auto;
+    gap: 30px;
+    justify-content: end;
+}
+
+.oryx-content {
+    /* margin-top: -5cm; */
+    max-width: 50%;
+    margin-right: 10px;
+}
+
+.oryx-title {
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.oryx-description {
+    color: #333333;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.8;
+    font-family:  Manrope, sans-serif;
+}
+
+.oryx-details-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Adjust the gap as needed */
+  }
+  
+  .oryx-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.oryx-label {
+    font-size: 14px;
+    color: #666666;
+}
+
+.oryx-value {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.oryx-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0056ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.oryx-button:hover {
+    background-color: #003bb5;
+}
+
+.oryx-image-container {
+    max-width: 40%;
+}
+
+.oryx-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.investment-highlights {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 0 50px 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dot{
+    background-color: #000;
+    border-radius: 100%;
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 8px;
+    max-height: 8px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+
+  li{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .investment-highlights h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .investment-highlights ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .investment-highlights li {
+    margin-bottom: 10px;
+  }
+  
+  .investment-highlights a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .investment-highlights a:hover {
+    text-decoration: underline;
+  }
+  
+  .eligibility {
+    margin-bottom: 20px;
+  }
+  
+  .eligibility h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .eligibility p {
+    margin: 5px 0;
+  }
+  
+  .subscription-eligibility {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #f0f0f0;
+
+  }
+
+  .oyrx-cta-text-line {
+    border-right: 1px solid rgba(125, 125, 125, .44);
+}
+  
+  .primary-subscription, .secondary-access, .eligibility {
+    width: 30%;
+    padding: 10px 50px;
+  }
+  
+  .primary-subscription h3, .secondary-access h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .secondary-access a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .secondary-access a:hover {
+    text-decoration: underline;
+  }
+  

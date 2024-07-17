@@ -1,0 +1,211 @@
+.property-details-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #e6edf5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .property-card-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 70%;
+  }
+  
+  .property-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    color: #575757;
+  }
+  
+  .property-address-name {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .view-smart-contracts-btn {
+    background-color: transparent;
+    border: none;
+    width: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #575757;
+    margin: 0;
+  }
+  
+  .view-smart-contracts-btn:hover {
+    background-color: white;
+  }
+  
+  .eth-address {
+    padding: 2px 8px;
+    background-color: #575757;
+    color: #ffffff;
+  }
+  
+  .property-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .property-image-container img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .property-summary-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .total-investment-label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .token-purchase-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .token-quantity-input {
+    margin-top: 16px;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .purchase-tokens-btn {
+    background-color: #575757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .stock-info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: gray;
+  }
+  
+  .stock-info-item {
+    margin: 5px 0 0 0;
+  }
+  
+  .stock-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #575757;
+  }
+  
+  .purchase-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+  }
+  
+  .quantity-purchase-btn-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .property-highlights-container {
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .tabs-container {
+    margin-left: 1cm;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tab-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .tab-btn.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .highlight-content-container {
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  
+  .highlight-left-container{
+    padding: 0 50px 0 0;
+    border-right: 1px solid #e0e0e0;
+    width: 50%;
+  }
+  
+  .highlight-right-container{
+    width: 50%;
+  }
+  
+  .highlight-item-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom:  1px solid #e0e0e0;
+    padding: 10px 0;
+  }
+  
+  .highlight-item-container-last{
+    border-bottom:  none !important;
+  }
+  
+  .highlight-label-name {
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .highlight-value-name {
+    flex: 1;
+    text-align: right;
+  }
+  
+  
+  .propert-image-viewproperty{
+  
+    height: auto;
+    max-height: 100%;
+  
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .highlight-label-name{
+    text-align: left;
+  }
+  
+  .highlight-value-name{
+    text-align: end;
+  }
