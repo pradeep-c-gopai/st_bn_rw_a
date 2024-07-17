@@ -30,6 +30,13 @@ const Home = () => {
           <img src={ifscaLogo} alt="IFSCA Logo" className="ifsca-logo" />
         </div>
       </div>
+      <div className="container-diversify">
+      <div className="content">
+        <h1>Diversify your portfolio with alternative assets</h1>
+        <button className="waitlist-button">Join the waitlist</button>
+      </div>
+      <div className="corner-graphic"></div>
+    </div>
     </div>
   );
 };
