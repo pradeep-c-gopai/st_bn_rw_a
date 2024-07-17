@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../images/logo1.png";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation  } from "react-router-dom";
 
 const Navbar = () => {
   const isLoggedIn = !!sessionStorage.getItem("token");
@@ -11,6 +11,10 @@ const Navbar = () => {
     sessionStorage.removeItem("token");
     navigate("/login");
   };
+
+  const location = useLocation();
+  const isLoginOrRegister = location.pathname === '/login' || location.pathname === '/register';
+  const buttonClassName = isLoginOrRegister ? 'signIn-btn-none' : 'SignIn-btn';
 
   return (
     <div>
@@ -42,7 +46,7 @@ const Navbar = () => {
               </div>
             </div>
           ) : (
-            <div>
+            <div className={buttonClassName}>
               <Link to="/login">Sign in</Link>
             </div>
           )}
