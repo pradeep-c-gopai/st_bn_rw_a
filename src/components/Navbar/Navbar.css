@@ -101,6 +101,18 @@
   cursor: pointer;
 }
 
+.signIn-btn-none{
+  display: none;
+}
+
+.SignIn-btn{
+  padding: 0.5rem 1rem;
+}
+
+.SignIn-btn a{
+  text-decoration: none !important;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
