@@ -94,6 +94,9 @@ const InvestDashboard = () => {
         );
 
         await invest.wait();
+        setIsModalOpen(false);
+        alert('Invested successfully!');
+        fetchTokenDetails();
       }
     } catch (error) {
       console.error("Error fetching token details:", error);
