@@ -172,3 +172,61 @@
 .powered-by span {
   margin-right: 10px;
 }
+
+.container-diversify {
+  width: 100%;
+  font-family: Manrope, sans-serif;
+  background-color: #00267b;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 88px;
+  padding-bottom: 40px;
+}
+
+.content h1{
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.waitlist-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00267b;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  width: 200px;
+  height: auto;
+  min-width: 170px;
+  border: #fff solid 0.5px;
+}
+
+.waitlist-button:hover {
+  background-color: #e0e0e0;
+}
+
+.corner-graphic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* width: 400px;
+  height: 400px; */
+  background: #00267b; /* Adjust the path to your image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
